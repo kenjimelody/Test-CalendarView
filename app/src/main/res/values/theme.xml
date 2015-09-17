@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="HomeActivity" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="android:actionBarStyle">@style/MainActionBar</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowContentTransitions">true</item>
+
+    </style>
+
+
+    <!-- ActionBar styles -->
+    <style name="MainActionBar" parent="Widget.AppCompat.Light.ActionBar">
+        <item name="android:titleTextStyle">@style/MainActionBarTitleText</item>
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+    <!-- ActionBar title text -->
+    <style name="MainActionBarTitleText" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+</resources>
